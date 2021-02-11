@@ -1,4 +1,5 @@
 # create the directory to store the Consul config file
+# update
 cd /usr/local/bin
 mkdir consul
 cd consul
