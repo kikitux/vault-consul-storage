@@ -1,4 +1,5 @@
 # create the directory to store vault config files
+# updated
 mkdir vault-config
 cd vault-config
 
