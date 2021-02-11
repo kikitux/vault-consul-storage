@@ -8,5 +8,4 @@ Vagrant.configure("2") do |config|
     config.vm.provision "shell", path: "scripts/install-vault-consul.sh"
     config.vm.provision "shell", path: "scripts/make-config-consul.sh"
     config.vm.provision "shell", path: "scripts/make-config-vault.sh"
-    #config.vm.network "forwarded_port", guest: 8200, host: 8200
   end
