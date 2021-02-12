@@ -9,9 +9,9 @@
 ### What's included
 
 - [X] A Vagrantfile: [Vagrantfile](https://github.com/dlavric/vault-consul-storage/blob/main/Vagrantfile)
-- [X] A script that installs Vault and Consul: [Install Script](https://github.com/dlavric/vault-consul-storage/blob/main/install-vault-consul.sh)
-- [X] A script that creates the configuration file for Vault: [Config Vault](https://github.com/dlavric/vault-consul-storage/blob/main/make-config-vault.sh)
-- [X] A script that creates the configuration file for Consul [Config Consul](https://github.com/dlavric/vault-consul-storage/blob/main/make-config-consul.sh)
+- [X] A script that installs Vault and Consul: [Install Script](https://github.com/dlavric/vault-consul-storage/blob/main/scripts/install-vault-consul.sh)
+- [X] A script that creates the configuration file for Vault: [Config Vault](https://github.com/dlavric/vault-consul-storage/blob/main/scripts/make-config-vault.sh)
+- [X] A script that creates the configuration file for Consul [Config Consul](https://github.com/dlavric/vault-consul-storage/blob/main/scripts/make-config-consul.sh)
 
 ### Instructions to use the repository
 
