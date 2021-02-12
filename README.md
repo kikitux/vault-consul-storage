@@ -35,16 +35,6 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-- Go to the /vagrant directory
-```shell
-$ cd /vagrant
-```
-
-- Change consul's file user and group ownership
-```shell
-$ sudo chown -R consul:consul consul
-```
-
 - Start Consul
 ```shell
 $ sudo systemctl start consul
@@ -69,7 +59,7 @@ Output:
 
 - Start Vault
 ```shell
-$ vault server -config=./scripts/vault-config/config.hcl
+$ vault server -config=/etc/vault.d/config.hcl
 ```
 
 Output:
