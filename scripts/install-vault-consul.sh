@@ -2,7 +2,6 @@
 
 # download vault if not installed
 # put it on /usr/local/bin
-# updated
 
 
 which vault

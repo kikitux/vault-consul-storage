@@ -98,4 +98,3 @@ Output:
 ```shell
 vagrant destroy
 ```
-Finish
