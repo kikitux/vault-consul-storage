@@ -40,11 +40,6 @@ $ vagrant ssh
 $ cd /vagrant
 ```
 
-- Change consul's file user and group ownership
-```shell
-$ sudo chown -R consul:consul consul
-```
-
 - Start Consul
 ```shell
 $ sudo systemctl start consul
