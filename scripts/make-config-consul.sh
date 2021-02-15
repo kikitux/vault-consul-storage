@@ -2,6 +2,9 @@
 
 mkdir -p /etc/consul.d
 
+mkdir -p /var/consul/data
+chown -R consul:consul /var/consul/data
+
 # populate the config file consul.hcl 
 cat > /etc/consul.d/consul.hcl <<EOF
 {
