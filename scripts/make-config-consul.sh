@@ -14,12 +14,15 @@ cat > /etc/consul.d/consul.hcl <<EOF
     "data_dir": "/var/consul/data",
     "bind_addr": "0.0.0.0",
     "client_addr": "0.0.0.0",
-    "advertise_addr": "10.1.42.101",
+    "advertise_addr": "127.0.0.1",
     "bootstrap_expect": 1,
-    "retry_join": ["10.1.42.101"],
+    "retry_join": ["127.0.0.1"],
     "ui": true,
     "log_level": "DEBUG",
     "enable_syslog": true,
     "acl_enforce_version_8": false
 }
 EOF
+
+systemctl enable consul
+systemctl start consul

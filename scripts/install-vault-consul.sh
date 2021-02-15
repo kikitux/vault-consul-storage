@@ -17,6 +17,6 @@ then
     sudo apt-get install -y vault consul
 
     # install jq for json parsing
-    apt-get install jq
+    apt-get install -y jq
 
 fi
