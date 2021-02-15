@@ -1,14 +1,15 @@
-# create the directory to store vault config files
-mkdir vault-config
-cd vault-config
+#!/usr/bin/env bash
 
-cat << EOF > config.hcl
+# create the directory to store vault config files
+mkdir -p /etc/vault.d
+
+cat  >/etc/vault.d/config.hcl <<EOF
 storage "consul" { 
   address = "127.0.0.1:8500" 
   path    = "vault" 
 } 
 
- listener "tcp" { 
+listener "tcp" { 
   address     = "127.0.0.1:8200" 
   tls_disable = "true" 
 }
